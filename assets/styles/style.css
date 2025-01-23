@@ -1,0 +1,39 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+    height: 150px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    width: 100%;
+    height: 380px;
+    background-color: rgb(247, 106, 106);
+}
+
+.kiri {
+    float: left;
+    width: 25%;
+}
+
+.kanan {
+    overflow: auto;
+    float:right;
+    background-color: blanchedalmond;
+    width: 75%;
+    height: 380px;
+}
+
+.footer {
+    width: 100%;
+    height: 150px;
+    background-color: burlywood;
+}
